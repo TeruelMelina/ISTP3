@@ -2,10 +2,10 @@
   "name": "ISTP3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "start" : "node ./src/index.js"
+    "test": "jest",
+    "start": "node ./src/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/TeruelMelina/ISTP3#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "jest": "^27.0.5",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {}
 }
