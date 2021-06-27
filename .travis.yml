@@ -5,3 +5,13 @@ node_js:
 
 notifications:
   slack: isutn2021:HKOcQCSnm0UFtVN2SRIeJsx3
+
+deploy:
+  - provide: heroku
+  - skip-cleanup: true
+  - keep-history: true
+  - api-key: 90e9f95f-86fa-4a05-a120-4844dd7b341d
+  - app: istp3
+  on: 
+    repo: TeruelMelina/ISTP3
+    branch: main
