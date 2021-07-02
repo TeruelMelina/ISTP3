@@ -5,7 +5,7 @@ const app = express()
 
 //Peticion GET a la ruta principal, responde con "Esto es una prueba para IC!"
 app.get('/', async (req, res) => {
-    res.status(200).send('Esto es una prueba para IC y para el TP de IS!')
+    res.status(200).send('Esto es una prueba para IC!')
 })
 
 
